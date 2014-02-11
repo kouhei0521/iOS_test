@@ -21,6 +21,7 @@
 		F3B2C77118A9E880008220DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B2C75318A9E880008220DE /* UIKit.framework */; };
 		F3B2C77918A9E880008220DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3B2C77718A9E880008220DE /* InfoPlist.strings */; };
 		F3B2C77B18A9E880008220DE /* test_iOS_app_02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B2C77A18A9E880008220DE /* test_iOS_app_02Tests.m */; };
+		F3B2C78618A9E9F0008220DE /* test_iOS_app_02_secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B2C78518A9E9F0008220DE /* test_iOS_app_02_secondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F3B2C77618A9E880008220DE /* test_iOS_app_02Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test_iOS_app_02Tests-Info.plist"; sourceTree = "<group>"; };
 		F3B2C77818A9E880008220DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3B2C77A18A9E880008220DE /* test_iOS_app_02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_iOS_app_02Tests.m; sourceTree = "<group>"; };
+		F3B2C78418A9E9F0008220DE /* test_iOS_app_02_secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test_iOS_app_02_secondViewController.h; sourceTree = "<group>"; };
+		F3B2C78518A9E9F0008220DE /* test_iOS_app_02_secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test_iOS_app_02_secondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				F3B2C75E18A9E880008220DE /* test_iOS_app_02AppDelegate.h */,
 				F3B2C75F18A9E880008220DE /* test_iOS_app_02AppDelegate.m */,
 				F3B2C76118A9E880008220DE /* Main.storyboard */,
+				F3B2C78418A9E9F0008220DE /* test_iOS_app_02_secondViewController.h */,
+				F3B2C78518A9E9F0008220DE /* test_iOS_app_02_secondViewController.m */,
 				F3B2C76418A9E880008220DE /* test_iOS_app_02ViewController.h */,
 				F3B2C76518A9E880008220DE /* test_iOS_app_02ViewController.m */,
 				F3B2C76718A9E880008220DE /* Images.xcassets */,
@@ -252,6 +257,7 @@
 			files = (
 				F3B2C76618A9E880008220DE /* test_iOS_app_02ViewController.m in Sources */,
 				F3B2C76018A9E880008220DE /* test_iOS_app_02AppDelegate.m in Sources */,
+				F3B2C78618A9E9F0008220DE /* test_iOS_app_02_secondViewController.m in Sources */,
 				F3B2C75C18A9E880008220DE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

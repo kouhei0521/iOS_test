@@ -10,6 +10,8 @@
 
 @interface test_iOS_app_02ViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *weight;
+@property (weak, nonatomic) IBOutlet UITextField *height;
 @end
 
 @implementation test_iOS_app_02ViewController
@@ -26,4 +28,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)calc_bmi:(id)sender {
+}
 @end
