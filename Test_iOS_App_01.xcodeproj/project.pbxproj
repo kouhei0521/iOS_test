@@ -21,6 +21,7 @@
 		F3B2C6AB18A9B222008220DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B2C68D18A9B222008220DE /* UIKit.framework */; };
 		F3B2C6B318A9B222008220DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3B2C6B118A9B222008220DE /* InfoPlist.strings */; };
 		F3B2C6B518A9B222008220DE /* Test_iOS_App_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B2C6B418A9B222008220DE /* Test_iOS_App_01Tests.m */; };
+		F3B2C74218A9E726008220DE /* Test_iOS_App_01_Second_View.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B2C74118A9E726008220DE /* Test_iOS_App_01_Second_View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F3B2C6B018A9B222008220DE /* Test_iOS_App_01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test_iOS_App_01Tests-Info.plist"; sourceTree = "<group>"; };
 		F3B2C6B218A9B222008220DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3B2C6B418A9B222008220DE /* Test_iOS_App_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_iOS_App_01Tests.m; sourceTree = "<group>"; };
+		F3B2C74018A9E726008220DE /* Test_iOS_App_01_Second_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test_iOS_App_01_Second_View.h; sourceTree = "<group>"; };
+		F3B2C74118A9E726008220DE /* Test_iOS_App_01_Second_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test_iOS_App_01_Second_View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				F3B2C69818A9B222008220DE /* Test_iOS_App_01AppDelegate.h */,
 				F3B2C69918A9B222008220DE /* Test_iOS_App_01AppDelegate.m */,
 				F3B2C69B18A9B222008220DE /* Main.storyboard */,
+				F3B2C74018A9E726008220DE /* Test_iOS_App_01_Second_View.h */,
+				F3B2C74118A9E726008220DE /* Test_iOS_App_01_Second_View.m */,
 				F3B2C69E18A9B222008220DE /* Test_iOS_App_01ViewController.h */,
 				F3B2C69F18A9B222008220DE /* Test_iOS_App_01ViewController.m */,
 				F3B2C6A118A9B222008220DE /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				F3B2C69618A9B222008220DE /* main.m in Sources */,
 				F3B2C69A18A9B222008220DE /* Test_iOS_App_01AppDelegate.m in Sources */,
 				F3B2C6A018A9B222008220DE /* Test_iOS_App_01ViewController.m in Sources */,
+				F3B2C74218A9E726008220DE /* Test_iOS_App_01_Second_View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

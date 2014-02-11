@@ -10,6 +10,8 @@
 
 @interface Test_iOS_App_01ViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *textSpace01;
+- (IBAction)butto01:(id)sender;
 @end
 
 @implementation Test_iOS_App_01ViewController
@@ -24,6 +26,22 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)butto01:(id)sender {
+    // ラベル表示
+//    self.textSpace01.text = @"Hello World!";
+
+/*
+    // アラートダイアログ
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hello World!" message:nil delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    
+    [alert show];
+*/
+}
+
+- (IBAction)back:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
