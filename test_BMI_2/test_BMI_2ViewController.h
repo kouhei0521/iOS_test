@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ResultViewController.h"
 
-@interface test_BMI_2ViewController : UIViewController
+// アラートビュー用のプロトコルを設定
+@interface test_BMI_2ViewController : UIViewController <UIAlertViewDelegate>
+
+// UI 部品との関連プロパティ
+@property (weak, nonatomic) IBOutlet UITextField *height;
+@property (weak, nonatomic) IBOutlet UITextField *weight;
+
+// アクションメソッド
+- (IBAction)calcBmi:(id)sender;
+- (IBAction)editFinish:(id)sender;
 
 @end

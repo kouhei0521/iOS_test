@@ -21,6 +21,7 @@
 		F39F23F718B0976F0065EF23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39F23D918B0976F0065EF23 /* UIKit.framework */; };
 		F39F23FF18B0976F0065EF23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F39F23FD18B0976F0065EF23 /* InfoPlist.strings */; };
 		F39F240118B0976F0065EF23 /* test_BMI_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F39F240018B0976F0065EF23 /* test_BMI_2Tests.m */; };
+		F39F240C18B0A5220065EF23 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39F240B18B0A5220065EF23 /* ResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F39F23FC18B0976F0065EF23 /* test_BMI_2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test_BMI_2Tests-Info.plist"; sourceTree = "<group>"; };
 		F39F23FE18B0976F0065EF23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F39F240018B0976F0065EF23 /* test_BMI_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_BMI_2Tests.m; sourceTree = "<group>"; };
+		F39F240A18B0A5220065EF23 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		F39F240B18B0A5220065EF23 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				F39F23EB18B0976F0065EF23 /* test_BMI_2ViewController.m */,
 				F39F23ED18B0976F0065EF23 /* Images.xcassets */,
 				F39F23DC18B0976F0065EF23 /* Supporting Files */,
+				F39F240A18B0A5220065EF23 /* ResultViewController.h */,
+				F39F240B18B0A5220065EF23 /* ResultViewController.m */,
 			);
 			path = test_BMI_2;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				F39F23E618B0976F0065EF23 /* test_BMI_2AppDelegate.m in Sources */,
 				F39F23EC18B0976F0065EF23 /* test_BMI_2ViewController.m in Sources */,
 				F39F23E218B0976F0065EF23 /* main.m in Sources */,
+				F39F240C18B0A5220065EF23 /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
